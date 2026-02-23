@@ -35,7 +35,7 @@ Your task is to critically and realistically evaluate how well the candidate mat
 
 Be strict: do NOT inflate the match score. Penalize heavily missing core technologies, insufficient experience, or mismatched seniority. Do not reward generic experience, courses, or certifications in place of real experience. Multiple missing key requirements must reduce the match percentage below 50.
 
-Return your response ONLY as valid JSON matching this exact structure:
+Return your response ONLY as valid JSON matching this exact structure on spanish:
 
 {{
   "professionalSummary": "string max 120 words describing candidate's profile and relevance",
