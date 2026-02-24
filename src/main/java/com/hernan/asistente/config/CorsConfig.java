@@ -20,6 +20,12 @@ public class CorsConfig {
                         .allowedOrigins(frontendUrl, "http://localhost:5173")
                         .allowedMethods("GET", "POST")
                         .allowedHeaders("*");
+                
+                // Health check endpoint - público para robots
+                registry.addMapping("/health")
+                        .allowedOrigins("*")
+                        .allowedMethods("GET")
+                        .allowedHeaders("*");
             }
         };
     }
